@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+
+    background-color:rgb(238, 214, 252);
+
+}
+
+#cabecalho{
+    display: flex;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 2%;
+}
+
+#cartasContainer{
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+}
+
+img{
+    padding: 8px;
+}
+input{
+    width: 35vw;
+    height: 5vh;
+    margin-left: 4vh;
+    background-color: rgb(255, 252, 96);
+}
+input::placeholder{
+padding-left: 5px;
+}
+
+button{
+    width: 12vw;
+    height: 5vh;
+    justify-content: center;
+    background-color: rgb(255, 246, 246);
+}
+#cartaInput{
+font-size: 1em;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
